@@ -22,14 +22,14 @@
   "devDependencies": {
     "@nativescript/android": "~9.0.0",
     "@nativescript/ios": "~9.0.0",
-    "@nativescript/tailwind": "^2.1.0",
+    "@nativescript/tailwind": "^4.0.5",
     "@nativescript/types": "~9.0.0",
     "@nativescript/vite": "^1.0.2",
     "@types/node": "^22.14.0",
     "concurrently": "^9.0.1",
     "nativescript": "~9.0.1",
     "patch-package": "^8.0.1",
-    "tailwindcss": "~3.4.0",
+    "tailwindcss": "^4.1.17",
     "typescript": "~5.9.0",
     "wait-on": "^7.2.0"
   }
