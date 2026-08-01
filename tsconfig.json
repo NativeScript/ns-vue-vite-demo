@@ -3,15 +3,14 @@
     "strict": true,
     "target": "esnext",
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "lib": ["esnext", "WebWorker"],
     "sourceMap": true,
     "noEmitHelpers": true,
     "importHelpers": true,
-    "baseUrl": ".",
     "paths": {
-      "~/*": ["src/*"],
-      "@/*": ["src/*"]
+      "~/*": ["./src/*"],
+      "@/*": ["./src/*"]
     },
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -23,6 +22,6 @@
     "target": 3,
     "lib": "nativescript-vue"
   },
-  "include": ["src", "types"],
-  "exclude": ["node_modules", "platforms"]
+  "include": ["./src", "./types"],
+  "exclude": ["./node_modules", "./platforms"]
 }

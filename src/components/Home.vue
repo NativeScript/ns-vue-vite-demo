@@ -17,7 +17,7 @@ function enterNow(evt: EventData) {
   // You can also use native platform APIs directly
   // Try commenting above and uncommenting below to see it in action
   const url = "https://viteconf.amsterdam";
-  if ((evt.object as Button)?.ios) {
+  if (__APPLE__) {
     const nsUrl = NSURL.URLWithString(url);
     const app = UIApplication.sharedApplication;
     app.openURLOptionsCompletionHandler(nsUrl, NSDictionary.new(), (success: boolean) => {
